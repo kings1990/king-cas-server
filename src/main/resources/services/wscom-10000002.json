@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^https://ws.com/boot.*",
+  "name" : "Local",
+  "theme" : "apereo",
+  "id" : 10000002,
+  "description" : "Local foundation sample service",
+  "evaluationOrder" : 1
+}
