@@ -1,7 +1,7 @@
 {
   "@class" : "org.apereo.cas.services.RegexRegisteredService",
-  "serviceId" : "^https://ws.com/boot.*",
-  "name" : "Local",
+  "serviceId" : "https://king.ws.com/boot.*",
+  "name" : "wscom",
   "theme" : "apereo",
   "id" : 10000002,
   "description" : "Local foundation sample service",
