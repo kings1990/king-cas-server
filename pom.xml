@@ -31,6 +31,12 @@
             <groupId>org.apereo.cas</groupId>
             <artifactId>cas-server-support-jdbc</artifactId>
             <version>${cas.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>xmlsectool</artifactId>
+                    <groupId>net.shibboleth.tool</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -68,7 +74,8 @@
     </dependencies>
 
     <build>
-        <finalName>king-cas-server</finalName>
+        
+        <finalName>cas</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
