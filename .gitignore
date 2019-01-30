@@ -22,7 +22,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 ### Java template
-*.class
+# *.class
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -102,3 +102,5 @@ fabric.properties
 jrebel.xml
 *rebel.xml*
 rebel-remote.xml
+
+!*.class
