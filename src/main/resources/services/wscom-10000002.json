@@ -5,5 +5,23 @@
   "theme" : "apereo",
   "id" : 10000002,
   "description" : "Local foundation sample service",
-  "evaluationOrder" : 1
+  "evaluationOrder" : 1,
+  "properties" : {
+    "@class": "java.util.HashMap",
+    
+    "jwtSigningSecret": {
+      "@class": "org.apereo.cas.services.DefaultRegisteredServiceProperty",
+      "values": [
+        "java.util.HashSet",
+        [
+          "12345678901234567890123456789012"
+        ]
+      ]
+    },
+    "jwtEncryptionSecret" : {
+      "@class" : "org.apereo.cas.services.DefaultRegisteredServiceProperty",
+      "values" : [ "java.util.HashSet", [ "12345678901234567890123456789012" ] ]
+    }
+    
+  }
 }
